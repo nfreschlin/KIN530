@@ -1,0 +1,24 @@
+[project]
+name = "kin530"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "nfreschlin",email = "nfreschlin@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13,<4.0"
+dependencies = [
+    "pandas (>=2.3.2,<3.0.0)",
+    "matplotlib (>=3.10.6,<4.0.0)",
+    "scipy (>=1.16.2,<2.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.12.12"
+ipykernel = "^6.30.1"
+
